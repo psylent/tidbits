@@ -102,7 +102,7 @@ if( empty($nameErr) && empty($websiteErr) && empty($emailErr) && empty($genderEr
 
 ?>
 
-<h2>PHP Form Validation Example</h2>
+<h2>PHP Form Validation Working Example</h2>
 <p><span class="error">* required field.</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   Name: <input type="text" name="name" value="<?php echo $name;?>">
