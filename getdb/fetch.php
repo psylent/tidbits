@@ -4,7 +4,7 @@ header("Content-Type: application/json; charset=UTF-8");
 
 $connect = mysqli_connect("localhost", "root", "", "pdo_test");
 
-$result = mysqli_query($connect, "select * from users");
+$result = mysqli_query($connect, "SELECT * FROM users");
 
 $data = array();
 
